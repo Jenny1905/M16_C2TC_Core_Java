@@ -20,7 +20,9 @@ class Renault
 public class ConstructorOverloading {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		Renault r=new Renault();
+		@SuppressWarnings("unused")
 		Renault r1=new Renault("Yellow",50);
 
 	}
